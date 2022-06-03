@@ -1,5 +1,5 @@
 <template>
-  <div class="container">this is test</div>
+	<div class="container">this is test</div>
 </template>
 
 <script>
@@ -8,6 +8,6 @@ export default {};
 
 <style lang="scss" scoped>
 .container {
-  background-color: red;
+	background-color: red;
 }
 </style>

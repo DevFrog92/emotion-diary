@@ -1,5 +1,5 @@
 <template>
-  <section>this is calendar component</section>
+	<section>this is calendar component</section>
 </template>
 
 <script>
