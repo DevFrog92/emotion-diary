@@ -7,22 +7,32 @@ Vue.use(VueRouter);
 // wrapping되어서 반환되기 때문이다.
 
 const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: () => import('../views/Home.vue'),
-  },
-  {
-    path: '/test',
-    name: 'Test',
-    component: () => import('../views/Test.vue'),
-  },
+	{
+		path: '/',
+		name: 'Home',
+		component: () => import('../views/Home.vue'),
+	},
+	{
+		path: '/test',
+		name: 'Test',
+		component: () => import('../views/Test.vue'),
+	},
+	{
+		path: '/calendar',
+		name: 'Calendar',
+		component: () => import('@/views/Calendar.vue'),
+	},
+	{
+		path: '/login',
+		name: 'Login',
+		component: () => import('@/views/Login.vue'),
+	},
 ];
 
 const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes,
+	mode: 'history',
+	base: process.env.BASE_URL,
+	routes,
 });
 
 export default router;

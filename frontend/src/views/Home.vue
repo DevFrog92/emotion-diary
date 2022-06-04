@@ -1,5 +1,5 @@
 <template>
-  <section>this is home</section>
+	<section>새로운 프로젝트 시작</section>
 </template>
 
 <script>
